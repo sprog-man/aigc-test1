@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI学习交流平台</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            text-align: center;
+            max-width: 500px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+        .btn {
+            background: #667eea;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 10px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #5a6fd8;
+        }
+        .btn-secondary {
+            background: #6c757d;
+        }
+        .btn-secondary:hover {
+            background: #545b62;
+        }
+        .features {
+            text-align: left;
+            margin: 20px 0;
+        }
+        .features ul {
+            list-style: none;
+            padding: 0;
+        }
+        .features li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AI学习交流平台</h1>
+        <p>欢迎来到AI知识分享与学习社区</p>
+
+        <div class="features">
+            <h3>主要功能：</h3>
+            <ul>
+                <li>✅ 用户登录系统</li>
+                <li>✅ 发帖分享AI知识</li>
+                <li>✅ 学习币购买帖子</li>
+                <li>✅ 每日签到赚币</li>
+                <li>✅ 学习活跃排行榜</li>
+            </ul>
+        </div>
+
+        <div>
+            <button class="btn" onclick="window.location.href='/login'">用户登录</button>
+            <button class="btn btn-secondary" onclick="window.location.href='/register'">用户注册</button>
+        </div>
+
+        <p style="margin-top: 30px; color: #666;">
+            1人民币 = 10学习币<br>
+            通过签到、浏览、评论获得学习币
+        </p>
+    </div>
+</body>
+</html>

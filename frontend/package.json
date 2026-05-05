@@ -1,0 +1,33 @@
+{
+  "name": "ai-learning-platform-frontend",
+  "version": "1.0.0",
+  "description": "AI学习交流网站前端",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "vue": "^3.2.0",
+    "vue-router": "^4.0.0",
+    "vuex": "^4.0.0",
+    "axios": "^1.6.0",
+    "element-plus": "^2.4.0",
+    "@element-plus/icons-vue": "^2.1.0",
+    "dayjs": "^1.11.0",
+    "nprogress": "^0.2.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}

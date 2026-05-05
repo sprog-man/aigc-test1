@@ -1,0 +1,19 @@
+{
+  "name": "ai-learning-platform",
+  "version": "1.0.0",
+  "description": "AI学习交流网站",
+  "main": "src/main/java/com/aiteam/AiLearningPlatformApplication.java",
+  "scripts": {
+    "spring-boot": "mvn spring-boot:run",
+    "test": "mvn test",
+    "build": "mvn clean package"
+  },
+  "keywords": [
+    "spring-boot",
+    "ai",
+    "learning",
+    "platform"
+  ],
+  "author": "AI Team",
+  "license": "MIT"
+}
