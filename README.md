@@ -230,12 +230,18 @@ cd frontend
 npm run build
 ```
 
-## 贡献指南
+## Git分支管理
 
-1. Fork 项目
-2. 创建功能分支
+当前项目分支：
+- **master**: 主分支，稳定版本
+- **claude**: 开发分支，用于后续开发和维护
+
+### 贡献指南
+
+1. 切换到 claude 分支：`git checkout claude`
+2. 创建功能分支：`git checkout -b feature/your-feature`
 3. 提交更改
-4. 推送到分支
+4. 推送到分支：`git push origin feature/your-feature`
 5. 创建 Pull Request
 
 ## 许可证
